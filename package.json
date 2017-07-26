@@ -1,0 +1,33 @@
+{
+  "name": "mock-express",
+  "version": "1.0.0",
+  "description": "使用express模拟数据服务",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "glob": "^7.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhanfenghai/mock-express.git"
+  },
+  "keywords": [
+    "mock",
+    "express",
+    "local"
+  ],
+  "author": "zhanfenghai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhanfenghai/mock-express/issues"
+  },
+  "homepage": "https://github.com/zhanfenghai/mock-express#readme",
+  "dependencies": {
+    "require-reload": "^0.2.2"
+  }
+}
